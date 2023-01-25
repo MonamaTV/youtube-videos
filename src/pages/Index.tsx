@@ -16,10 +16,10 @@ const Home = () => {
           and why I did certain things
         </p>
       </div>
-      <div className="my-1 flex w-full px-4">
+      <div className="my-1 flex w-full sm:w-max px-4">
         <input
           type="text"
-          className="w-full border border-slate-100 text-xs py-2 px-4 outline-none rounded-lg sm:w-96 sm:py-3"
+          className="w-full border border-slate-200 text-xs py-2 px-4 outline-none rounded-lg sm:w-96 sm:py-3 focus:border-slate-300"
           placeholder="Search video..."
         />
         <button className="bg-secondary border border-secondary text-white rounded-lg ml-2 py-2 px-4 shadow-lg text-xs">
@@ -27,7 +27,7 @@ const Home = () => {
         </button>
       </div>
       <section className="grid grid-cols-1 mt-3 px-4">
-        <div className="flex w-full lg:w-2/4 mx-auto border border-slate-100 px-6 py-5 flex-col md:flex-row rounded-lg my-2 ">
+        <div className="flex w-full lg:w-2/4 mx-auto border border-slate-200 px-6 py-5 flex-col md:flex-row rounded-lg my-2 ">
           <img
             src={main}
             alt=""
@@ -60,7 +60,7 @@ const Home = () => {
             </div>
           </div>
         </div>
-        <div className="flex w-full lg:w-2/4 mx-auto border border-slate-100 px-6 py-5 flex-col md:flex-row rounded-lg my-2 md ">
+        <div className="flex w-full lg:w-2/4 mx-auto border border-slate-200 px-6 py-5 flex-col md:flex-row rounded-lg my-2 md ">
           <img
             src={mong}
             alt=""
